@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.atividadedois;
+
+/**
+ *
+ * @author Aluno
+ */
+public class AtividadeDois {
+
+    public static void main(String[] args) {
+        Livros livro = new Livros("Brenuzin Shippuden", "Villas Boas, Breno", 721, 80);
+        Livros livro2 = new Livros("Era of Ginkana", "Villas Boas, Breno", 482, 67);
+        
+        
+        System.out.println("Titulo do Livro: " + livro.titulo);
+        System.out.println("Autor: " + livro.autor);
+        System.out.println("Número de Paginas: " + livro.paginas);
+        System.out.println("Preço: R$ " + livro.preco + "\n");
+        
+        System.out.println("Titulo do Livro: " + livro2.titulo);
+        System.out.println("Autor: " + livro2.autor);
+        System.out.println("Número de Paginas: " + livro2.paginas);
+        System.out.println("Preço:R$" + livro2.preco);
+    }
+}   
+
